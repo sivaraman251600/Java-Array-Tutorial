@@ -38,6 +38,8 @@ public class AsList {
 			int b = scan.nextInt();
 			listOneInteger.add(b);
 		}
+		
+		scan.close();
 
 		System.out.println("Listed Integer Array " + listOneInteger);
 		
